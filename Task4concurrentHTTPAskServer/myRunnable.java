@@ -1,8 +1,9 @@
-package concurrentHTTPAskServer;
-import concurrentHTTPAskServer.tcpclient.TCPClient;
+package Task4concurrentHTTPAskServer;
 import java.net.*;
 import java.io.*;
 import java.util.HashMap;
+
+import Task4concurrentHTTPAskServer.tcpclient.TCPClient;
 
 public class myRunnable implements Runnable {
 private final Socket clientSocket;
