@@ -1,4 +1,5 @@
-package tcpclient;
+
+package Task1TCPAsk.tcpclient;
 
 import java.net.Socket;
 import java.io.ByteArrayOutputStream;
